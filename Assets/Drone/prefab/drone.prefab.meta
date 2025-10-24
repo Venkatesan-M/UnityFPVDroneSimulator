@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e746f881748d3a147949e70e5c570880
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190684
+  packageName: Simple Drone
+  packageVersion: 1.0
+  assetPath: Assets/Drone/prefab/drone.prefab
+  uploadId: 429130

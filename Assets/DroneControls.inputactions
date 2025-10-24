@@ -1,0 +1,115 @@
+{
+    "version": 1,
+    "name": "DroneControls",
+    "maps": [
+        {
+            "name": "Drone",
+            "id": "239af8ee-f03c-4a75-b5d6-8614942c6646",
+            "actions": [
+                {
+                    "name": "Throttle",
+                    "type": "Value",
+                    "id": "fbf7667d-1894-4345-b3e2-13055a124629",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Yaw",
+                    "type": "Value",
+                    "id": "af25a816-9d94-4148-81c9-6dd235402a47",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pitch",
+                    "type": "Value",
+                    "id": "6ee46bda-2820-474f-a63c-6056d12bbf5a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Roll",
+                    "type": "Value",
+                    "id": "108fb9e2-d785-4472-b256-7523db2089c1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FlightModes",
+                    "type": "Value",
+                    "id": "f14aa714-6996-4cda-85cc-84a74d29c9da",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8db25e4b-c83a-495e-b3c7-bdc5ca18cb4d",
+                    "path": "<HID::OpenTX Radiomaster Pocket Joystick>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc4f8c8d-3c66-4a16-b3bf-b9f54052883d",
+                    "path": "<HID::OpenTX Radiomaster Pocket Joystick>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yaw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17c99d0b-be97-4233-81bd-ce0e2e42dc0d",
+                    "path": "<Joystick>/stick/y",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Pitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24f888ef-cf71-449d-8324-edf343969538",
+                    "path": "<Joystick>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Roll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ed57166e-48dc-4aed-9745-f7f480e4492e",
+                    "path": "<HID::OpenTX Radiomaster Pocket Joystick>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlightModes",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

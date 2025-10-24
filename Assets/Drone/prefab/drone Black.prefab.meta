@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c53e58c59cba20e4ab6f2080fbdafb5f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190684
+  packageName: Simple Drone
+  packageVersion: 1.0
+  assetPath: Assets/Drone/prefab/drone Black.prefab
+  uploadId: 429130
